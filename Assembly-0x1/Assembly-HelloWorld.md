@@ -7,7 +7,7 @@ Before deeping into Assembly, I am going to use libc6-dev-i386, if you have not 
 sudo apt install libc6-dev-i386
 ```
 
-Let me explain why we need to use assembly or why can it be useful?
+Let me explain why we need to use assembly or why it can be useful to learn ?
 
 
 Assembly language is used primarily for direct hardware manipulation, access to specialized processor instructions, or to address critical performance issues. 

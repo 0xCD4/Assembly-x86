@@ -14,11 +14,17 @@ Assembly language is used primarily for direct hardware manipulation, access to 
 Typical uses are device drivers, low-level embedded systems, and real-time systems. If you ever thought about manipulating the instructions or injecting some piece of code 
 such as in hardware hacking.Then, it will be useful to learn assembly, but it can be very complex and will require deep understanding of it.
 
-But still why ?
+## Is it possible to hack hardware with Assembly language ?
+
+t is theoretically possible to use assembly language to hack hardware, but it is a complex and advanced task that requires a deep understanding of both the hardware and the assembly language being used. Assembly language is a low-level programming language that is used to directly control the hardware of a computer or other device. It is typically used to write operating systems, device drivers, and other programs that need to interface directly with the hardware.
+
+## Why do we want to use ?
 
 Assembly language is a low-level programming language that is used to directly control the hardware of a computer or other device. It is typically used to write operating systems,
 device drivers, and other programs that need to interface directly with the hardware.Do not forget! It is important to note that attempting to hack hardware without a deep understanding
-of the consequences can be extremely dangerous and can result in damage to the hardware or even physical injury
+of the consequences can be extremely dangerous and can result in damage to the hardware or even physical injury.
+
+Lets get started....
 
 First of all, we will be using Linux system calls because you can make use of it into your asm code.
 
@@ -102,3 +108,4 @@ Hello, world
  ```
  
  This is just an easy code. I will try to code more complex structure. You can also consider this as welcome message to my assembly repository.
+ Stay tuned!!!

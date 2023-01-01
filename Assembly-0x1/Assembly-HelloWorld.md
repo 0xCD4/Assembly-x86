@@ -16,7 +16,7 @@ such as in hardware hacking.Then, it will be useful to learn assembly, but it ca
 
 ## Is it possible to hack hardware with Assembly language ?
 
-t is theoretically possible to use assembly language to hack hardware, but it is a complex and advanced task that requires a deep understanding of both the hardware and the assembly language being used. Assembly language is a low-level programming language that is used to directly control the hardware of a computer or other device. It is typically used to write operating systems, device drivers, and other programs that need to interface directly with the hardware.
+It is theoretically possible to use assembly language to hack hardware, but it is a complex and advanced task that requires a deep understanding of both the hardware and the assembly language being used. Assembly language is a low-level programming language that is used to directly control the hardware of a computer or other device. It is typically used to write operating systems, device drivers, and other programs that need to interface directly with the hardware.
 
 ## Why do we want to use ?
 
@@ -56,7 +56,7 @@ Write to the system call
 mov eax, 4 ; message length
 mov ebx, 1 ; file descriptor
 lea ecx, [message] ; The lea instruction places the address specified by its operand
-mov edx, 13 ; the lenght of the ascii string
+mov edx, 13 ; the length of the ascii string
 int 0x80 ; call system
 
 ```
